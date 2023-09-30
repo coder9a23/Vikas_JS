@@ -6,7 +6,7 @@ let age = 10
 // String interpolation
 console.log(`Hello my name is ${name} and  i am ${age} years old`)
 
-const gameName = new String("Fast And Furious")
+const gameName = new String("Fast-And-Furious")
 // console.log(gameName[0])
 // console.log(gameName.__proto__)
 
@@ -23,3 +23,7 @@ console.log(anotherString)
 
 const url = "https://vikas.com/gaming%20jaiswal"
 console.log(url.replace('%20', " "))
+
+console.log(url.includes("vikas"))
+console.log(gameName.split('-'))
+ 
