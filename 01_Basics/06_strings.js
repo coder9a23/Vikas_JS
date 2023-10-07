@@ -27,3 +27,7 @@ console.log(url.replace('%20', " "))
 console.log(url.includes("vikas"))
 console.log(gameName.split('-'))
  
+let obj = {}
+let arr = []
+console.log(typeof obj)
+console.log(arr.length)
