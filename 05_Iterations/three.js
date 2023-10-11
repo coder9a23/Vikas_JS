@@ -16,9 +16,26 @@ console.log(greetings.charAt(9))
 
 // Map
 
-const map = new Map()
+const map = new Map() // -> it doesn't contan duplicate value and it retuns values in entered orderd
 
 map.set("IN" , "India")
 map.set("Fr","France")
+map.set("USA", "United State of America")
+map.set("IN" , "India")
 
-console.log(map)
+//console.log(map)
+
+// To retrive both key and value of map
+for(const [key, value] of map){
+    console.log(key,':-', value)
+}
+ 
+
+const myObj = {
+    game1 : 'NSF',
+    game2 : 'Spriderman'
+}
+
+for (const [key, value] of myObj) {
+    console.log(key, ':-', value)
+}
