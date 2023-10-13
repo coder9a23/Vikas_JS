@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chai and Code</title>
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolore?</p>
+<body style="background-color: #212121; color : #ffff">
 </body>
+
+<script>
+    const div = document.createElement('div')
+    console.log(div)
+    div.className = 'main'
+    div.id = Math.floor(Math.random() * 10 + 1)
+
+    div.setAttribute = ('title', 'generated title')
+    div.style.color = 'red'
+    div.style.backgroundColor = 'blue'
+
+    //div.innerText = 'Chai aur code'
+    
+    const text = document.createTextNode('Chai aur code')
+    div.appendChild(text)
+
+    document.body.appendChild(div);
+
+</script>
 </html>
